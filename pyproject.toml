@@ -1,0 +1,9 @@
+[project]
+name = "d4098-dipole-dataset"
+version = "0.1.0"
+description = "Analytic D4098 multipole-to-dipole training data"
+requires-python = ">=3.13,<3.14"
+dependencies = ["numpy==2.5.4", "torch", "matplotlib"]
+
+[tool.uv]
+package = false
